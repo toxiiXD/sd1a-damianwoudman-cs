@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("- answer in caps");
         Console.WriteLine("- is the door closed? Y/N");
         bool doorNeedsKey = Console.ReadLine() == "Y";
         if (doorNeedsKey == true)
@@ -24,5 +25,6 @@ class Program
         {
             Console.WriteLine("- u open the door.");
         }
+     
     }
 }
