@@ -1,4 +1,4 @@
-﻿namespace _02_classes;
+﻿namespace rijschool;
 
 class Program
 {
