@@ -2,8 +2,10 @@ namespace rijschool;
 
 class TheorieTest
 {
-    static void Main(string[] args)
+    internal class TheorieTest
     {
-        Console.WriteLine("Hello, World!");
+        internal int aantalfouten;
+        internal bool gehaald;
+        internal datetime afnamedatum;
     }
 }

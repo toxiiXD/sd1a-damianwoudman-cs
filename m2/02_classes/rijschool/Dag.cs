@@ -2,8 +2,9 @@ namespace rijschool;
 
 class Dag
 {
-    static void Main(string[] args)
+    internal class Dag
     {
-        Console.WriteLine("Hello, World!");
+        internal DateTime datum;
+        internal LesUur[]lesuren;
     }
 }

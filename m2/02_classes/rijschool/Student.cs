@@ -2,8 +2,13 @@ namespace rijschool;
 
 class Student
 {
-    static void Main(string[] args)
+    internal class Student
     {
-        Console.WriteLine("Hello, World!");
+        internal string naan;
+        internal int leeftijd;
+        internal LesPakket lesPakket;
+        internal RijLeraar leraar;
+        internal TheorieTest theorieTest;
+        internal RijTest rijTest;
     }
 }

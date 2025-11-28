@@ -2,8 +2,14 @@ namespace rijschool;
 
 class Auto
 {
-    static void Main(string[] args)
+    
+
+    internal class Auto
     {
-        Console.WriteLine("Hello, World!");
+        internal bool automaat;
+        internal string merk;
+        internal string kenteken;
+        internal int kilometerstand;
     }
+
 }

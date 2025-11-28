@@ -2,8 +2,11 @@ namespace rijschool;
 
 class RijLeraar
 {
-    static void Main(string[] args)
+   
+   internal class RijLeraar
     {
-        Console.WriteLine("Hello, World!");
+        internal string naam;
+        internal int leeftijd;
+        internal bool zzp;
     }
 }

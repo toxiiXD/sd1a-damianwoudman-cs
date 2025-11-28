@@ -2,8 +2,9 @@ namespace rijschool;
 
 class RijTest
 {
-    static void Main(string[] args)
+    internal class RijTest
     {
-        Console.WriteLine("Hello, World!");
+        internal bool gehaald;
+        internal datetime afnamedatum;
     }
 }

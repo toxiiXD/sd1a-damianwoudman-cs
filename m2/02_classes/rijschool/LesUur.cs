@@ -2,8 +2,11 @@ namespace rijschool;
 
 class LesUur
 {
-    static void Main(string[] args)
+    internal class LesUur
     {
-        Console.WriteLine("Hello, World!");
+        internal int tijd;
+        internal Student student;
+        internal RijLeraar rijLeraar;
+        internal Auto auto;
     }
 }

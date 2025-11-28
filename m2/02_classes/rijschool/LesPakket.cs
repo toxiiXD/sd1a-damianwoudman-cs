@@ -2,8 +2,11 @@ namespace rijschool;
 
 class LesPakket
 {
-    static void Main(string[] args)
+    internal class LesPakket
     {
-        Console.WriteLine("Hello, World!");
+        internal int urengekocht;
+        internal int urenverbruikt;
+        internal int examenpogingen;
+        internal bool automaat;
     }
 }
