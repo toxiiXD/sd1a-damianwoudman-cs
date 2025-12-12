@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        string[] characters =
+            { "Pac-Man", "Samus", "Crash Bandicoot", "Spyro the Dragon", "Donkey Kong", "Mario",
+            "Luigi", "Astro", "Solid Snake", "Master Chief", "Kratos", "Sonic the Hedgehog", "Link" };
+
+
+
+
     }
 }
