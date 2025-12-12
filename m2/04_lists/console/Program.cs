@@ -1,4 +1,4 @@
-﻿namespace _04_lists;
+﻿namespace console;
 
 class Program
 {
